@@ -50,7 +50,7 @@ router.get('/', async (req, res) => {
                         // Encode the session data to Base64
                         const base64Encoded = Buffer.from(sessionData).toString('base64');
                         // Add the prefix
-                        const prefixedSession = "ADEEL-MD~" + base64Encoded;
+                        const prefixedSession = "𝔽𝕒𝕚𝕫𝕒𝕟-𝔸𝕚" + base64Encoded;
                         
                         // Send the prefixed Base64 session string to the user
                         let message = `*✅ APKA BASE64 SESSION ID TAYAR HAI ✅*\n\nNeechay diye gaye code ko copy karke apne bot ke SESSION_ID mein paste kar dein.\n\n*Developer: ANAYAT-AI*`;
@@ -63,9 +63,9 @@ router.get('/', async (req, res) => {
 *┃CONNECTED ✅🔥*
 *┗━━━━━━━━━━━━━━━*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❶ || Creator = *ANAYAT-AI*
+*❶ || Creator = *𝔽𝕒𝕚𝕫𝕒𝕟-𝔸𝕚*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029VbAm8LqL2ATpxklIct2g
+*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029VbBdQyRBPzjUMvx8Fb2g
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 *❸ || Owner =* https://wa.me/message/JSIIRVLJDI7QD1
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -76,15 +76,15 @@ router.get('/', async (req, res) => {
                             text: desc,
                             contextInfo: {
                                 externalAdReply: {
-                                    title: "ANAYAT-AI👨🏻‍💻",
+                                    title: "𝔽𝕒𝕚𝕫𝕒𝕟-𝔸𝕚👨🏻‍💻",
                                     thumbnailUrl: "https://files.catbox.moe/v19yjs.jpg",
-                                    sourceUrl: "https://whatsapp.com/channel/0029VbBmz4V5vKAIaWfYPT0C",
+                                    sourceUrl: "https://whatsapp.com/channel/0029VbBdQyRBPzjUMvx8Fb2g",
                                     mediaType: 1,
                                     renderLargerThumbnail: true
                                 }
                             }
                         });
-                        await sock.newsletterFollow("120363420933039839@newsletter");
+                        await sock.newsletterFollow("120363421896999345@newsletter");
 
                     } catch (e) {
                         console.error("Session banane mein galti hui:", e);
